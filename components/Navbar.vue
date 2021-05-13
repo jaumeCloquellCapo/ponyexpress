@@ -12,9 +12,9 @@
               <span class="block">Home</span>
             </NuxtLink>
 
-                <NuxtLink :to="localePath('gallery')"  class="item--link">
+                <!--NuxtLink :to="localePath('gallery')"  class="item--link">
               <span class="block">     {{ $t('gallery.title') }}</span>
-            </NuxtLink>
+            </NuxtLink-->
 
 
                  <NuxtLink
