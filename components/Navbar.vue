@@ -1,7 +1,7 @@
 <template>
   <header class="toolbar">
     <div class="toolbar--container">
-      <NuxtLink :to="localePath('index')"  class="text--logo text-gradient bg-gradient-to-r from-blue-600 via-indigo-400 to-purple-300">
+      <NuxtLink :to="localePath('index')"  class="text--logo text-gray-900 from-blue-600 via-indigo-400 to-purple-300">
         Pony Express Mallorca
       </NuxtLink>
 

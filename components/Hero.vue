@@ -1,5 +1,5 @@
 <template>
-  <section class="hero md:px-0">
+  <!--section class="hero md:px-0">
     <div class="hero--container">
       <h1 class="hero--headings">
         <span class="block">PONY EXPRESS <span class="block text-gradient bg-gradient-to-r from-blue-600 via-indigo-400 to-purple-300 lg:inline lg:mt-0 mt-1"> Mallorca</span></span>
@@ -11,7 +11,27 @@
     <div class="hero--img-container">
    <img src="~/assets/images/logo.png" class="max-w-xs md:max-w-sm m-auto"/>
     </div>
-  </section>
+  </section-->
+  
+<div class="grid grid-flow-col grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4">
+  
+  <div class="flex items-center justify-center">
+    <main class="max-w-screen-xl px-4 lg:px-16">
+        <div class="text-center sm:text-left">
+          <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+            PONY EXPRESS
+            <br>
+            <span class="text-indigo-600">Mallorca</span>
+          </h2>
+          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+  El caballo es el animal favorito de muchos niños y en este paseo en pony en Mallorca podrán ver su sueño cumplido.
+          </p>
+        </div>
+      </main>
+  </div>
+  <div class="w-full object-cover h-72 lg:w-full md:h-screen bg-cover bg-center" :style="'background-image:url(' + require('~/assets/images/bk.jpeg')+');'"></div>
+  
+</div>
 </template>
 
 <script>
