@@ -1,43 +1,23 @@
 <template>
-  <div>
-    <div class="bg-gray-100 text-gray-100 px-8 pb-12 pt-1 text-center">
-      <div
-        class="max-w-screen-xl mt-24 px-8 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg"
-      >
-        <div class="flex flex-col justify-between">
-          <div>
-            <h2 class="text-4xl lg:text-5xl font-bold leading-tight">
-              {{ $t('contact.title') }}
-            </h2>
-            <div class="text-gray-700 mt-8">
-              {{ $t('contact.subtitle') }}
-
-              <br />
-              <div class="inline-flex">
-                <!--button
-                  class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-2 px-4 shadow-lg"
-                >
-                  <a href="mailto:catidiver@hotmail.com">
-                    {{ $t('common.send_email') + ' : catidiver@hotmail.com'  }}
-                  </a>
-                </button-->
-                <button
-                  class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-2 px-4 shadow-lg"
-                >
+<section class="text-gray-600 body-font relative">
+  <div class="absolute inset-0 bg-gray-300">
+    <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12269.700790505562!2d3.1516558!3d39.7525608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4620b886cab2e65c!2sponyexpressmallorca!5e0!3m2!1sen!2ses!4v1620913968567!5m2!1sen!2ses" style="filter: grayscale(0.5) contrast(1) opacity(0.8);"></iframe>
+  
+  </div>
+  <div class="container px-5 py-24 mx-auto flex">
+    <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+      <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">      {{ $t('contact.title') }}</h2>
+      <p class="leading-relaxed mb-5 text-gray-600">      {{ $t('contact.subtitle') }}</p>
+      <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              
                   <a href="tel:619861880">
                     {{ '619861880' }}
                   </a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="mt-8 text-center">
-            <img async src="~/assets/images/contact.svg?inline"   alt="diverpark baleaares alquiler animaciones infantiles, castillos hinchables toro mecánico fiesta espuma  para comuniones fiestas o bautizos en palma de mallorca"  class="w-auto" slot="svg" />
-          </div>
-        </div>
-      </div>
+      </button>
     </div>
   </div>
+</section>
+
 </template>
 
 <script>
