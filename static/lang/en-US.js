@@ -33,6 +33,9 @@ export default () => {
         title: 'Contact',
         subtitle:'¿ Odias los formularios ? Llámanos directamente en su lugar'
       },
+      hero: {
+        title: 'Horses are the favourite animal of many children and on this pony ride in Mallorca they can see their dream come true.'
+      },
       call: {
         visit: '¡ Ven a visitarnos sin compromiso !',
         visit_desc: 'Podrás ver y elegir entre los ponis que forman parte de nuestro equipo, un lujo al alcance de la mano.'

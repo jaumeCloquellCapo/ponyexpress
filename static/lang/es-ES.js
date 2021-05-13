@@ -33,6 +33,9 @@ export default () => {
         title: 'Contacto',
         subtitle:'¿ Odias los formularios ? Llámanos directamente en su lugar'
       },
+      hero: {
+        title: ' El caballo es el animal favorito de muchos niños y en este paseo en pony en Mallorca podrán ver su sueño cumplido.'
+      },
       call: {
         visit: '¡ Ven a visitarnos sin compromiso !',
         visit_desc: 'Podrás ver y elegir entre los ponis que forman parte de nuestro equipo, un lujo al alcance de la mano.'

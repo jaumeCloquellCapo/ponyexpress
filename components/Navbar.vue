@@ -29,24 +29,23 @@
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3">
+          <li class="mr-3 mt-1">
              <NuxtLink :to="localePath('index')"  class="item--link">
               <span class="block">Home</span>
             </NuxtLink>
           </li>
 
-          <li class="mr-3">
+          <li class="mr-3 mt-1">
             <NuxtLink
               v-for="locale in availableLocales"
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               :key="locale.code"
               :to="switchLocalePath(locale.code)"
             >
-              {{ $t('common.' + locale.code) }}
+              <span class="block">{{ $t('common.' + locale.code) }}</span>
             </NuxtLink>
           </li>
         </ul>
-      <span class="inline-flex rounded-md shadow-sm">
+      <span class="inline-flex rounded-md shadow-sm mt-1">
                   <NuxtLink :to="localePath('contact')" class="btn btn--primary">
                           {{ $t('contact.title') }} 
                   </NuxtLink>
