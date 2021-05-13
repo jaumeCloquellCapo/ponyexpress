@@ -47,7 +47,7 @@ export default {
     // Options
     //to make it seo friendly remove below line and add baseUrl option to production domain
     seo: true,
-    baseUrl: 'https://www.ponyexpressmallorca.com/',
+    baseUrl: 'https://ponyexpressmallorca.com',
     lazy: true,
     locales: languages,
     defaultLocale: 'es',
@@ -68,9 +68,9 @@ export default {
     // https://pwa.nuxtjs.org/modules/meta.html
     meta: {
       name: 'Pony Express Mallorca',
-      description: 'Alquiler ponis en Mallorca',
+      description: 'Alquiler de ponis en Mallorca',
       lang: 'es',
-      ogHost: 'https://diverpark.net'
+      ogHost: 'https://ponyexpressmallorca.com'
     },
 
     // https://pwa.nuxtjs.org/modules/manifest.html
