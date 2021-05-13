@@ -11,7 +11,7 @@
           {{ $t('home.our_services') }}
         </h2>
         <p class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+          
         </p>
       </div>
 
