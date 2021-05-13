@@ -1,9 +1,9 @@
 const type = "website";
-const url = "https://diverpark.net";
-const keywords = 'castillos hinchables, toro mecánico, palma de mallorca, baleares, alquiler, comuniones, fiestas'
-const title = "DIVERPARK alquiler de castillos hinchables";
-const description = "Alquiler de castillos hinchables en Palma de mallorca";
-const mainImage = "https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2FdiverPark.jpg?alt=media&token=f77cf89f-37fe-49fd-8f1a-2a01db98d667";
+const url = "https://ponyexpressmallorca.com";
+const keywords = 'caballos, ponis, alquiler, cumpleaños, fiestas, comuniones'
+const title = "PONY EXPRESS MALLORCA alquiler de ponis";
+const description = "Alquiler de ponis en mallorca";
+const mainImage = "https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/ponis%2F379757_540313779336653_1475484847_n.jpg?alt=media&token=d96c7afd-8731-4b91-9f78-4974bb2e3205";
 export default (meta) => {
   return [
     {
