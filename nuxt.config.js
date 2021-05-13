@@ -41,8 +41,12 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
-
+  sitemap: {
+    hostname: 'https://ponyexpressmallorca.com',
+    gzip: true,
+  },
   i18n: {
     // Options
     //to make it seo friendly remove below line and add baseUrl option to production domain
