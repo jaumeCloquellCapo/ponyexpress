@@ -25,7 +25,7 @@
                   class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-2 px-4 shadow-lg"
                 >
                   <a href="tel:619861880">
-                    {{ '625458704' }}
+                    {{ '619861880' }}
                   </a>
                 </button>
               </div>
