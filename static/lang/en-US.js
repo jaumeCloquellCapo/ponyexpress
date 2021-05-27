@@ -12,6 +12,11 @@ export default () => {
           description: "Contact with Pony Express from Palma de Mallorca",
           keywords: 'ponis, rent, horse'
         },
+        galeria: {
+          title:  "Galery | Pony Express Mallorca",
+          description: "Photos ponis",
+          keywords: 'ponis, caballos, fiestas, cumpleaños'
+        }
       },
       common: {
         en: "English",
@@ -23,11 +28,11 @@ export default () => {
       home: {
         our_services: 'Our services',
         party: 'BIRTHDAY PARTIES',
-        party_desc: 'Celebrate the birthday of the kids, in a different way, outdoors and in contact with animals', 
+        party_desc: 'Celebrate the birthday of the kids, in a different way, outdoors and in contact with animals',
         comunion: 'FIRST COMMUNION',
         comunion_desc: 'The best option for the celebration of a communion is with Pony Express. Where the children are the real protagonists. Our affectionate ponies will make the day unforgettable for everyone',
         others: 'OTHER CELEBRATIONS',
-        others_desc: ' We offer you the possibility to organise the best events, parties and celebrations. We offer personalised services.', 
+        others_desc: ' We offer you the possibility to organise the best events, parties and celebrations. We offer personalised services.',
       },
       contact: {
         title: 'Contact',

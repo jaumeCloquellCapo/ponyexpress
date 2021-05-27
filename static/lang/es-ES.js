@@ -12,6 +12,11 @@ export default () => {
           description: "Contacta con nuestra empresa Pony Express en Palma de Mallorca",
           keywords: 'ponis, caballos, fiestas, cumpleaños'
         },
+        galeria: {
+          title:  "Galería de fotos | Pony Express Mallorca",
+          description: "Fotografías de ponis",
+          keywords: 'ponis, caballos, fiestas, cumpleaños'
+        }
       },
       common: {
         en: "English",
