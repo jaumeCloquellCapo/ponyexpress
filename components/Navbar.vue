@@ -36,6 +36,12 @@
           </li>
 
           <li class="mr-3 mt-1">
+            <NuxtLink :to="localePath('galeria')"  class="item--link">
+              <span class="block">Galeria</span>
+            </NuxtLink>
+          </li>
+
+          <li class="mr-3 mt-1">
             <NuxtLink
               v-for="locale in availableLocales"
               :key="locale.code"
@@ -47,7 +53,7 @@
         </ul>
       <span class="inline-flex rounded-md shadow-sm mt-1">
                   <NuxtLink :to="localePath('contact')" class="btn btn--primary">
-                          {{ $t('contact.title') }} 
+                          {{ $t('contact.title') }}
                   </NuxtLink>
             </span>
       </div>
