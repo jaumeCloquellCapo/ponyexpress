@@ -15,7 +15,7 @@
       <div class="flex flex-wrap -mx-4">
         <div  v-for="photo in photos"
               :key="photo.id" class="md:w-1/3 px-4 mb-8 md:mb-0">
-          <img class="rounded shadow-md" :src="thumbUrl(photo.filename)" alt="">
+          <img class="rounded shadow-md" :src="thumbUrl(photo.filename)" :alt="photo.title">
         </div>
       </div>
     </section>
