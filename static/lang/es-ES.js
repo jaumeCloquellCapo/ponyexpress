@@ -24,8 +24,8 @@ export default () => {
         },
       },
       common: {
-        en: "English",
-        es: "Spanish",
+        en: "Ingles",
+        es: "Español",
       },
       gallery: {
         title: 'Galería'

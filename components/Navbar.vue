@@ -42,6 +42,15 @@
             </NuxtLink>
           </li>
 
+            <li>
+             <NuxtLink
+              v-for="locale in availableLocales"
+              :key="locale.code"
+              :to="switchLocalePath(locale.code)">
+               <span>{{ $t('common.' + locale.code) }}</span>
+          </NuxtLink>
+          </li>
+
           <li>
              <NuxtLink :to="localePath('contact')" class="
                 cta
@@ -142,6 +151,14 @@
               <NuxtLink :to="localePath('galeria')">
               <span class="my-4 inline-block">{{ $t('gallery.title') }}</span>
             </NuxtLink>
+          </li>
+            <li>
+             <NuxtLink
+              v-for="locale in availableLocales"
+              :key="locale.code"
+              :to="switchLocalePath(locale.code)">
+               <span class="my-4 inline-block">{{ $t('common.' + locale.code) }}</span>
+          </NuxtLink>
           </li>
           <li>
                <NuxtLink :to="localePath('contact')" class="
@@ -253,6 +270,11 @@ export default {
       this.isOpen = !this.isOpen
     },
   },
+   computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    },
+  },  
   watch: {
     isOpen: {
       immediate: true,
