@@ -50,7 +50,7 @@ export default {
 
 <style lang="postcss" scoped>
 .hero {
-  @apply px-2 pt-32 pb-10 bg-white;
+  @apply px-2 pt-5 pb-10 bg-white;
 }
 .hero .hero--container {
   @apply container items-center max-w-6xl px-5 mx-auto space-y-6 text-center;
