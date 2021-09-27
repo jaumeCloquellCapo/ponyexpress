@@ -2,7 +2,7 @@
   <section class="hero md:px-0">
     <div class="hero--container">
       <h1 class="hero--headings">
-        <span class="block">Fiesta de cumpleaños </span>
+        <span class="block">Fiesta de cumpleaños con <span class="block text-gradient bg-gradient-to-r from-blue-600 via-indigo-400 to-purple-300 lg:inline lg:mt-0 mt-1">Pony express</span></span>
       </h1>
       <p class="hero--description">
          Lo importante es celebrar y pasar un buen momento!!!
