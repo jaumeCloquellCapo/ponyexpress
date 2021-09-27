@@ -16,7 +16,12 @@ export default () => {
           title:  "Galería de fotos | Pony Express Mallorca",
           description: "Fotografías de ponis",
           keywords: 'ponis, caballos, fiestas, cumpleaños'
-        }
+        },
+        birthday:{
+          title:  "Fiestas de cumpleaños con Pony Express Mallorca",
+          description: "Fiestas de cumpleaños de Ponis en Mallorca",
+          keywords: 'ponis, alquiler, caballos, cumpleaños'
+        },
       },
       common: {
         en: "English",
@@ -48,6 +53,14 @@ export default () => {
       testimonials: {
         title: 'Nuestros clientes aman a los animales',
         heading: 'Que dicen sobre nosotros'
+      },
+      birthday: {
+        title: 'Fiesta de cumpleaños',
+        heading: " Lo importante es celebrar y pasar un buen momento!!!",
+        service_home_house: "Servicio a domicilio",
+        service_home_house_desc: "Nada más cómodo que montar tu fiesta de cumpleaños en casa, en el local comunitario, en un restaurante de tu barrio donde tengas confianza, en un local infantil del barrio, en una casa rural en el campo, en una piscina o en el jardín de tu chalet.",
+        service_house: "En nuestras instalaciones",
+        service_house_desc: "Nuestro objetivo es hacer que organizar tu fiesta sea libre de estrés. ¡ Nosotros nos encargaremos de todo!"
       },
     })
   })

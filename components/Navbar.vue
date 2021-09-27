@@ -34,10 +34,15 @@
               <span class="block">Home</span>
             </NuxtLink>
           </li>
+          <li class="mr-3 mt-1">
+             <NuxtLink :to="localePath('birthday')"  class="item--link">
+              <span class="block">  {{ $t('birthday.title') }}</span>
+            </NuxtLink>
+          </li>
 
           <li class="mr-3 mt-1">
             <NuxtLink :to="localePath('galeria')"  class="item--link">
-              <span class="block">Galeria</span>
+              <span class="block">{{ $t('gallery.title') }}</span>
             </NuxtLink>
           </li>
 
