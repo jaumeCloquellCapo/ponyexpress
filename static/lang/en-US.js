@@ -57,7 +57,7 @@ export default () => {
       birthday: {
         title: 'Birthday Party',
         heading: "The important thing is to celebrate and have a good time!!!!",
-        service_home_house: "Service home house",
+        service_home_house: "Home service",
         service_home_house_desc: "There is nothing more comfortable than having your birthday party at home, in the community center, in a restaurant in your neighborhood where you have confidence, in a local children's club, in a rural house in the countryside, in a swimming pool or in the garden of your villa.",
         service_house: "In our instalations",
         service_house_desc: "Our goal is to make organizing your party stress-free, we'll take care of everything!"
