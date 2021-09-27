@@ -6,6 +6,7 @@
           <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
            {{ $t('birthday.title') }}
             <br>
+            
             <span class="text-indigo-600">Pony express</span>
           </h1>
           <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
