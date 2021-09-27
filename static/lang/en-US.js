@@ -44,7 +44,11 @@ export default () => {
       call: {
         visit: 'Come and visit us with no obligation',
         visit_desc: 'You will be able to see and choose between the ponies that are part of our team, a luxury within reach',
-      }
+      },
+      testimonials: {
+        title: 'Our customers love animals',
+        heading: 'What they say about us'
+      },
     })
   })
 }

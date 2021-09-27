@@ -56,7 +56,7 @@
     <!-- Features End -->
 
     <!-- Testimonials Start-->
-    <!--Testimonials :testimonials="testimonials"/-->
+    <Testimonials :testimonials="testimonials"/>
     <!-- Testimonials End-->
 
     <!-- Call To Action Start -->
@@ -97,22 +97,16 @@ export default {
     testimonials: [
       {
         id: 1,
-        name: 'James Durant',
-        jobTitle: 'Owner, Steak House',
-        message: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
+        name: 'Justgoma K.',
+        jobTitle: 'Client',
+        message: "A really beautiful finca and you don't have to be a pony professional to see that the owners care for and love their animals really well! I will definitely go there again with my son. (Original) Ein wirklich schöne Finca und man muss kein Pony-Profi sein um zu sehen,dass die Besitzer ihr Tiere wirklich gut pflegen und lieben! Ich werde mit meinem Sohn auf jeden Fall wieder dorthin gehen"
       },
       {
         id: 2,
-        name: 'Christopher Buddy',
-        jobTitle: 'CEO, HouseDesign Ltd.',
-        message: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
+        name: 'Christian Piedrahita',
+        jobTitle: 'Client',
+        message: "Experiencia increíble !! Para ir con la familia, Cristina y su familia son muy amables Y buenos anfitriones, nuestra hija no se quiere ir cuando está allí. Muchas Gracias pony express !!! (Translated by Google) Incredible experience !! To go with the family, Cristina and her family are very friendly And good hosts, our daughter does not want to leave when she is there. Thank you very much pony express !!!"
       },
-      {
-        id: 3,
-        name: 'Alphonse Todd',
-        jobTitle: 'CTO, MarketplaceDesign Inc.',
-        message: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium'
-      }
     ]
   })
 }

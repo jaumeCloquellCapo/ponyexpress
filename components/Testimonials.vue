@@ -4,18 +4,18 @@
       <div class="flex flex-col items-center lg:flex-row">
           <div class="flex flex-col items-start justify-center w-full h-full mb-10 lg:mb-0 lg:w-1/2">
             <p class="testimonial--subheading">
-              Nuestros clientes aman a los animales
+              {{ $t('testimonials.title') }}
             </p>
             <h3 class="testimonial--heading">
-              Que dicen sobre nosotros
+                {{ $t('testimonials.heading') }}
             </h3>
             <p class="testimonial--description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+             
             </p>
           </div>
           <div class="w-full lg:w-1/2 space-y-4">
             <blockquote
-              v-for="{ message, name, jobTitle, id } in testimonials"
+              v-for="{ message, name, id } in testimonials"
               :key="id"
               class="quote--container"
             >
@@ -29,7 +29,7 @@
 
                 <h3 class="quote--name">
                   {{ name }}
-                  <span class="quote--job">- {{ jobTitle }}</span>
+          
                 </h3>
               </div>
             </blockquote>

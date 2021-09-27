@@ -44,7 +44,11 @@ export default () => {
       call: {
         visit: '¡ Ven a visitarnos sin compromiso !',
         visit_desc: 'Podrás ver y elegir entre los ponis que forman parte de nuestro equipo, un lujo al alcance de la mano.'
-      }
+      },
+      testimonials: {
+        title: 'Nuestros clientes aman a los animales',
+        heading: 'Que dicen sobre nosotros'
+      },
     })
   })
 }
