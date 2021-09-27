@@ -2,7 +2,7 @@
 <section class="hero md:px-0">
     <div class="hero--container">
       <h1 class="hero--headings">
-        <span class="block">Galeria de fotos
+        <span class="block">{{ $t('gallery.title') }}
            <span class="block text-gradient bg-gradient-to-r from-blue-600 via-indigo-400 to-purple-300 lg:inline lg:mt-0 mt-1">
               Pony express
             </span>
