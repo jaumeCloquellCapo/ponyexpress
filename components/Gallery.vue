@@ -1,19 +1,12 @@
 <template>
-  <!--div class="gallery">
-    <div class="gallery-panel"
-         v-for="photo in photos"
-         :key="photo.id">
-      <router-link :to="`/photo/${photo.id}`">
-        <img :src="thumbUrl(photo.filename)">
-      </router-link>
-    </div>
-  </div-->
-
-<div class="container grid grid-cols-3 gap-10 mx-auto">
-    <div class="w-full rounded" v-for="photo in photos" :key="photo.id">
-        <img class="object-cover h-72 w-full" :src="thumbUrl(photo.filename)"
+<div class="container mx-auto py-10">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="flex justify-center" v-for="photo in photos" :key="photo.id">
+       <img class="object-cover h-72 w-full" :src="thumbUrl(photo.filename)"
             :alt="photo.title">
     </div>
+  
+  </div>
 </div>
 
   <!--div class="container mx-auto px-4">
@@ -25,6 +18,7 @@
         </div>
       </div>
     </section>
+
   </div-->
 
 </template>
