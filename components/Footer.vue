@@ -28,11 +28,10 @@
   
                   </li>
                 </NuxtLink>
-                 <NuxtLink :to="localePath('contact')" >
+                 <NuxtLink :to="localePath('birthday')" >
                   <li class="mb-2 block">
-                    Home
+                    {{ $t('birthday.title') }}
                   </li>
-                        </NuxtLink>
               </ul>
             </div>
 
