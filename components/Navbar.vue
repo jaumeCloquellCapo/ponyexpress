@@ -138,22 +138,22 @@
         <ul class="divide-y font-sans">
           <li>
            
-              <NuxtLink :to="localePath('index')">
+              <NuxtLink v-on:click.native="isOpen = false" :to="localePath('index')">
               <span class="my-4 inline-block">Home</span>
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="localePath('birthday')">
+            <NuxtLink v-on:click.native="isOpen = false" :to="localePath('birthday')">
               <span class="my-4 inline-block">{{ $t('birthday.title') }}</span>
             </NuxtLink>
           </li>
           <li>
-              <NuxtLink :to="localePath('galeria')">
+              <NuxtLink v-on:click.native="isOpen = false" :to="localePath('galeria')">
               <span class="my-4 inline-block">{{ $t('gallery.title') }}</span>
             </NuxtLink>
           </li>
             <li>
-             <NuxtLink
+             <NuxtLink v-on:click.native="isOpen = false"
               v-for="locale in availableLocales"
               :key="locale.code"
               :to="switchLocalePath(locale.code)">
