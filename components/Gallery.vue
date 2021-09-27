@@ -24,12 +24,13 @@
 </template>
 
 <script>
-import photos from '@/photos.json';
+
 export default {
   name: 'Gallery',
+  props: ['photos'],
   data() {
     return {
-      photos,
+
     };
   },
   methods: {
