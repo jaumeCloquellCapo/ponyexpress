@@ -2,7 +2,7 @@
   <section class="hero md:px-0">
      <div class="flex items-center justify-center">
     <main class="max-w-screen-xl px-4 lg:px-16">
-        <div class="text-center sm:text-left">
+        <div class="text-center">
           <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
            Fiesta de cumpleaños con
             <br>
