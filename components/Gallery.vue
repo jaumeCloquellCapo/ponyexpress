@@ -8,9 +8,15 @@
       </router-link>
     </div>
   </div-->
-  <div class="container mx-auto px-4">
 
+<div class="container grid grid-cols-3 gap-10 mx-auto">
+    <div class="w-full rounded" v-for="photo in photos" :key="photo.id">
+        <img class="object-cover h-72 w-full" :src="thumbUrl(photo.filename)"
+            :alt="photo.title">
+    </div>
+</div>
 
+  <!--div class="container mx-auto px-4">
     <section class="py-8 px-4">
       <div class="flex flex-wrap -mx-4">
         <div  v-for="photo in photos"
@@ -19,8 +25,7 @@
         </div>
       </div>
     </section>
-
-  </div>
+  </div-->
 
 </template>
 
