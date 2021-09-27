@@ -5,7 +5,6 @@
        <img class="object-cover h-72 w-full" :src="thumbUrl(photo.filename)"
             :alt="photo.title">
     </div>
-  
   </div>
 </div>
 
