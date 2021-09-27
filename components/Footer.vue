@@ -32,6 +32,7 @@
                   <li class="mb-2 block">
                     {{ $t('birthday.title') }}
                   </li>
+                    </NuxtLink>
               </ul>
             </div>
 
